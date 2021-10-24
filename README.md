@@ -9,4 +9,4 @@ o	update-database -context ApplicationDbContext
 o	dotnet run bin/Debug/netcoreapp3.1/IdentityService /seed
 -	From the Server folder run this script in command line to seed test data
 o	npx sequelize-cli db:seed:all --url mysql://root:12345@localhost:3306/my-react-app.
-After running the scripts successfully, we can access the project main page via http://localhost:3000.
+- After running the scripts successfully, we can access the project main page via http://localhost:3000.
